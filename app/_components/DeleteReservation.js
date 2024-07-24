@@ -3,7 +3,7 @@ import { TrashIcon } from '@heroicons/react/24/solid';
 import { useTransition } from 'react';
 import SpinnerMini from './SpinnerMini';
 
-function DeleteReservation({ bookingId,onDelete }) {
+function DeleteReservation({ bookingId, onDelete }) {
   // Server action inside server component
   // function deleteReservation() {
   //   'use server';
