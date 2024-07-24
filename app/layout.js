@@ -11,10 +11,9 @@ const josefin = Josefin_Sans({//improves performance as font don't need to be do
 })
 
 export const metadata = {
-  // title: 'The Wild Oasis',
   title: {
-    template: '%s - The Wild Oasis', // %s will be replaced with the title of the page
-    default: 'Welcome / The Wild Oasis'
+    template: '%s - Book My Stay', // %s will be replaced with the title of the page
+    default: 'Welcome / Book My Stay'
   },
   description: "Luxurious cabin hotel located in the heart of the Italian Dolomites, surrounded by beautiful mountains and dark forests",
 }
